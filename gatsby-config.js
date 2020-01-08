@@ -8,8 +8,8 @@ module.exports = ({ shopName, accessToken }) => ({
     {
       resolve: 'gatsby-source-shopify',
       options: {
-        shopName,
-        accessToken,
+        shopName: `musles-enterprise.myshopify.com`,
+        accessToken: `7d380b6c2736f57dde861be1f1bf4517`,
       },
     },
     {
